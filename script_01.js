@@ -23,14 +23,14 @@ arr =   [
 
 // nested loop
 
-for (let i = 0; i < arr.length; i++) {
-        // const element = arr[i];
-        for (let j = 0; j < arr.length; j++) {
-        output("Index i: " + i + " Index j: " + j);
-        output(arr[i][j]);    
+// for (let i = 0; i < arr.length; i++) {
+//         // const element = arr[i];
+//         for (let j = 0; j < arr[i].length; j++) {
+//         output("Index i: " + i + " Index j: " + j);
+//         output(arr[i][j]);    
         
-        }
-}
+//         }
+// }
 
 /***** Objekte 1 Daten/Funktionen *******/
 
@@ -39,6 +39,6 @@ for (let i = 0; i < arr.length; i++) {
 
 
 /** Ausgabe */
-// function output(outputData) {
-//         console.log(outputData);
-// }
+function output(outputData) {
+        console.log(outputData);
+}
