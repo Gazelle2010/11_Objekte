@@ -9,10 +9,10 @@
 
 // nested arrays [[[]]]
 // nested arrays - hier [[],[]]
-arr =   [
-                 ["Ich","bin","Max"],
-                 ["Ich","bin","Moritz"]
-         ];
+// arr =   [
+//                  ["Ich","bin","Max"],
+//                  ["Ich","bin","Moritz"]
+//          ];
 
 
 // output(arr);
@@ -33,6 +33,36 @@ arr =   [
 // }
 
 /***** Objekte 1 Daten/Funktionen *******/
+
+let person = {
+                        firstName:"Yunaisy",
+                        familyName:"Jug",
+                        salary: [120000,160000],
+                        permission: true,
+                        sayHello:
+                                function(){
+                                        return "Hello, ich bin " + this.firstName + "!";
+                                }
+
+};
+
+// output(person);
+// output(person.firstName); // Dot-Syntax
+// output(person.permission); // Dot-Syntax
+// output(person.salary[1]); // Dot-Syntax
+
+person.familyName = "Jug";
+output(person.sayHello());
+
+const txt =     "Ich bin " + person.firstName + " " +
+                person.familyName +
+                " und verdiene " + 
+                person.salary[1] + " p.a";
+
+output(txt);
+
+
+/***** Objekte 2 - Hierarchie *******/
 
 
 
